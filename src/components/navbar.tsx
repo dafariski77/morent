@@ -14,7 +14,14 @@ import { VscSettings } from "react-icons/vsc";
 
 export default function Navbar() {
   return (
-    <Box pl={60} py={40} pr={32}>
+    <Box
+      pl={60}
+      py={40}
+      pr={32}
+      style={{
+        borderBottom: "1px solid #C3D4E9",
+      }}
+    >
       <Group justify="space-between">
         <Group>
           <Text c={"primary"} fz={"twoXl"} fw={"bold"}>
