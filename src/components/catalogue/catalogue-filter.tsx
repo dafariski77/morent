@@ -38,7 +38,7 @@ export default function CatalogueFilter() {
           h={60}
           radius={"md"}
           variant="filled"
-          color="blue"
+          color="primary"
           style={{
             position: "absolute",
             left: "50%",
